@@ -40,7 +40,7 @@ class Task implements Callable<Integer> {
 
 	@Override
 	public Integer call() throws Exception {
-		Thread.sleep(3000);
+		Thread.sleep(10);
 		System.out.println(Thread.currentThread().getName());
 		return new Random().nextInt(100);
 	}

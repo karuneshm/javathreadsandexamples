@@ -28,6 +28,7 @@ class Task extends Thread {
 				System.out.println("Thread is interruped by main thread");
 			}
 		} catch (InterruptedException e) {
+			System.out.println("Thread is interruped by main thread");
 			
 			e.printStackTrace();
 		}
